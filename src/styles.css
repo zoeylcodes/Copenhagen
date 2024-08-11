@@ -7,7 +7,8 @@ background-color: #272044;}
            margin: 0 auto;}
 
 .grid {display: grid;
-grid-template-columns: 1fr 2fr 2fr;}
+grid-template-columns: 1fr 2fr 2fr;
+grid-gap: 64px;}
 
 header {background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/ava-coploff-tcE9zSc2SU8-unsplash.jpg");
     color:white;
@@ -72,7 +73,6 @@ footer p{
     font-size: 14px;
     line-height: 24px;
     opacity: 0.7;
-    margin-right: 20px;
 }
 footer ul{
     margin:0;
