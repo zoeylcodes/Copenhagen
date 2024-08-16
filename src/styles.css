@@ -166,11 +166,13 @@ aspect-ratio: 1 /1;}
 .grid img {
     width: 100%; 
     height: auto; 
-    margin: 30px auto;
+    
     
   }
 .img-responsive{width: 100%;
-    display: block;}
+    display: block;
+}
+
 section.secondary{
     background-color: #F8F8F8;
 }
