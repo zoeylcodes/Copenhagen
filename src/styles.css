@@ -160,16 +160,22 @@ opacity: 0.7;
 
 }
 
+.embed{width:100%;
+aspect-ratio: 1 /1;}
+
 .grid img {
     width: 100%; 
     height: auto; 
     margin: 30px auto;
     
   }
-.img-responsive{max-width: 100%;
+.img-responsive{width: 100%;
     display: block;}
 section.secondary{
     background-color: #F8F8F8;
+}
+.card-header.grid {
+    grid-gap: 0;
 }
 
 .btn { display: block;
@@ -198,4 +204,8 @@ header h2 {font-size: 12px;}
     grid-gap: 32px;
 }
 section {padding:30px;}
+
+.card-header img{display: none;}
+.card-header embed{display: none;}
+.embed{aspect-ratio: 16/9;}
 }
